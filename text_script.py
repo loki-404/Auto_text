@@ -1,14 +1,13 @@
 from pyrogram import Client, filters 
 import time
-import os 
 api_id=    #your API_ID
 api_hash="Your API hash"
 Sessionstring="Your Sessionstring"
 # to get Sessionstring visit https://replit.com/@ErichDaniken/Generate-Telegram-String-Session 
 app = Client('your_name',       #Update this line with your name
-               api_id= api_id,     #your API_ID
-               api_hash=api_hash,   #your API_HASH
-               session_string=Sessionstring,) #your Sessionstring
+               api_id= api_id,     #your API_ID (don't edit this)
+               api_hash=api_hash,   #your API_HASH (don't edit this)
+               session_string=Sessionstring,) #your Sessionstring (don't edit this)
                
 async def main():
     async with app:
@@ -19,3 +18,4 @@ async def main():
 
 app.run(main())
 
+ 
